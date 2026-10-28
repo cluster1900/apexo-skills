@@ -1,0 +1,53 @@
+name: Release Skill Bundles
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run skill validation & example regression checks
+        run: node skills/cn-tender-review/scripts/verify-examples.mjs
+
+      - name: Package release archive and SHA256SUMS
+        run: |
+          VERSION=$(node -p "require('./skills/cn-tender-review/manifest.json').version")
+          TAG_NAME="${GITHUB_REF_NAME:-v${VERSION}}"
+          if [ "$TAG_NAME" != "v${VERSION}" ]; then
+            echo "Tag $TAG_NAME does not match manifest.json version v${VERSION}"
+            exit 1
+          fi
+          mkdir -p dist
+          (cd skills/cn-tender-review && zip -r "../../dist/cn-tender-review-v${VERSION}.zip" \
+            SKILL.md manifest.json plugin.json LICENSE CHANGELOG.md references examples scripts)
+          (cd dist && shasum -a 256 "cn-tender-review-v${VERSION}.zip" > SHA256SUMS)
+          cat dist/SHA256SUMS
+
+      - name: Publish GitHub Release assets
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(node -p "require('./skills/cn-tender-review/manifest.json').version")
+          if gh release view "v${VERSION}" >/dev/null 2>&1; then
+            gh release upload "v${VERSION}" "dist/cn-tender-review-v${VERSION}.zip" "dist/SHA256SUMS" --clobber
+          else
+            gh release create "v${VERSION}" "dist/cn-tender-review-v${VERSION}.zip" "dist/SHA256SUMS" \
+              --title "cn-tender-review v${VERSION}" \
+              --notes "Release cn-tender-review v${VERSION} (ruleset_version: 2026-10-28)"
+          fi

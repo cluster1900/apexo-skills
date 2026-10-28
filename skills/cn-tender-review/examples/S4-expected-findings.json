@@ -1,0 +1,46 @@
+{
+  "example_id": "S4",
+  "title": "某市政务云存储与服务器设备公开招标采购文件（政府采购口径缺陷样例）",
+  "source_file": "S4-gov-procurement-rules.md",
+  "project_domain": "government_procurement",
+  "expected_finding_ids": [
+    "TIME-GP-PROVIDE-5WD",
+    "FEE-DOC-COST-ONLY",
+    "BOND-GP-2PCT",
+    "EVAL-QUAL-AS-SCORE",
+    "EVAL-GP-PRICE-WEIGHT",
+    "EVAL-WEIGHT-SUM"
+  ],
+  "expected_findings_detail": [
+    {
+      "id": "TIME-GP-PROVIDE-5WD",
+      "severity": "blocker",
+      "law_keyword": "第十八条"
+    },
+    {
+      "id": "FEE-DOC-COST-ONLY",
+      "severity": "high",
+      "law_keyword": "第二十四条"
+    },
+    {
+      "id": "BOND-GP-2PCT",
+      "severity": "blocker",
+      "law_keyword": "非现金"
+    },
+    {
+      "id": "EVAL-QUAL-AS-SCORE",
+      "severity": "blocker",
+      "law_keyword": "第十七条"
+    },
+    {
+      "id": "EVAL-GP-PRICE-WEIGHT",
+      "severity": "blocker",
+      "law_keyword": "第五十五条"
+    },
+    {
+      "id": "EVAL-WEIGHT-SUM",
+      "severity": "blocker",
+      "law_keyword": "100"
+    }
+  ]
+}

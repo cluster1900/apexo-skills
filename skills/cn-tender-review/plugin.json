@@ -1,0 +1,11 @@
+{
+  "name": "cn-tender-review",
+  "version": "0.1.0",
+  "description": "中国招标文件合规预审（结构化发现+法条引用）。非法律意见。",
+  "author": {
+    "name": "Apexo Community"
+  },
+  "homepage": "https://github.com/cluster1900/apexo-skills",
+  "license": "MIT",
+  "skills": ["."]
+}

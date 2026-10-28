@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "cn-tender-review": {
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "cn-tender-review",
+            "description": "当用户需要审核中国招标/采购招标文件（PDF/DOCX）的合规性、歧视性条款、法定时限与保证金比例时使用。输出带严重级别、法条引用与修改建议的结构化报告。不构成法律意见。"
+          }
+        ]
+      }
+    }
+  }
+}

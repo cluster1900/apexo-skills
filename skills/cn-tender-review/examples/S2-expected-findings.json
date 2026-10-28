@@ -1,0 +1,34 @@
+{
+  "example_id": "S2",
+  "title": "某高新区科技大道拓宽改造工程施工招标文件（时限与开标冲突缺陷样例）",
+  "source_file": "S2-timeline-violations.md",
+  "project_domain": "engineering_mandatory",
+  "expected_finding_ids": [
+    "TIME-SALE-5D",
+    "TIME-BID-PREP-20D",
+    "TIME-CLARIFY-15D",
+    "CONSIST-TIMELINE-CONFLICT"
+  ],
+  "expected_findings_detail": [
+    {
+      "id": "TIME-SALE-5D",
+      "severity": "blocker",
+      "law_keyword": "实施条例"
+    },
+    {
+      "id": "TIME-BID-PREP-20D",
+      "severity": "blocker",
+      "law_keyword": "第二十四条"
+    },
+    {
+      "id": "TIME-CLARIFY-15D",
+      "severity": "high",
+      "law_keyword": "15"
+    },
+    {
+      "id": "CONSIST-TIMELINE-CONFLICT",
+      "severity": "blocker",
+      "law_keyword": "第三十四条"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "skills": [
+    {
+      "name": "cn-tender-review",
+      "version": "0.1.0",
+      "files": [
+        "SKILL.md",
+        "manifest.json",
+        "plugin.json",
+        "LICENSE",
+        "CHANGELOG.md",
+        "references/laws-and-regulations.md",
+        "references/checklist-rules.md",
+        "references/report-template.md",
+        "examples/S1-compliant-baseline.md",
+        "examples/S1-expected-findings.json",
+        "examples/S2-timeline-violations.md",
+        "examples/S2-expected-findings.json",
+        "examples/S3-discriminatory-and-bond-3pct.md",
+        "examples/S3-expected-findings.json",
+        "examples/S4-gov-procurement-rules.md",
+        "examples/S4-expected-findings.json",
+        "scripts/verify-examples.mjs"
+      ]
+    }
+  ]
+}

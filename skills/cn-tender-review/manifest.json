@@ -1,0 +1,10 @@
+{
+  "name": "cn-tender-review",
+  "version": "0.1.0",
+  "description": "中国招标文件合规预审（结构化发现+法条引用）",
+  "compatibility": "apexo-code >= 1.18.35",
+  "license": "MIT",
+  "ruleset_version": "2026-10-28",
+  "supported_inputs": ["pdf", "docx", "doc", "txt", "md"],
+  "disclaimer": "本工具仅供辅助检查，不构成法律意见。"
+}

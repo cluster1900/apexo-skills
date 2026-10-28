@@ -1,0 +1,46 @@
+{
+  "example_id": "S3",
+  "title": "某产业园智慧园区弱电智能化工程招标文件（歧视条款与保证金超标样例）",
+  "source_file": "S3-discriminatory-and-bond-3pct.md",
+  "project_domain": "engineering_mandatory",
+  "expected_finding_ids": [
+    "BOND-BID-2PCT",
+    "DISC-REGION",
+    "DISC-BRAND",
+    "DISC-AUTH-OEM",
+    "DISC-QUAL-OVERSPEC",
+    "CONTRACT-SUBSTANTIVE-CHANGE"
+  ],
+  "expected_findings_detail": [
+    {
+      "id": "BOND-BID-2PCT",
+      "severity": "blocker",
+      "law_keyword": "2%"
+    },
+    {
+      "id": "DISC-REGION",
+      "severity": "blocker",
+      "law_keyword": "第十八条"
+    },
+    {
+      "id": "DISC-BRAND",
+      "severity": "blocker",
+      "law_keyword": "第二十条"
+    },
+    {
+      "id": "DISC-AUTH-OEM",
+      "severity": "blocker",
+      "law_keyword": "授权"
+    },
+    {
+      "id": "DISC-QUAL-OVERSPEC",
+      "severity": "high",
+      "law_keyword": "第三十二条"
+    },
+    {
+      "id": "CONTRACT-SUBSTANTIVE-CHANGE",
+      "severity": "high",
+      "law_keyword": "第四十六条"
+    }
+  ]
+}

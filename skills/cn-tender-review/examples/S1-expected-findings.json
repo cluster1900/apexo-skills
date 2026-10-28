@@ -1,0 +1,21 @@
+{
+  "example_id": "S1",
+  "title": "某新区市政管网更新改造工程施工招标文件（合规基线版）",
+  "source_file": "S1-compliant-baseline.md",
+  "project_domain": "engineering_mandatory",
+  "expected_finding_ids": [],
+  "forbidden_finding_ids": [
+    "TIME-BID-PREP-20D",
+    "TIME-SALE-5D",
+    "TIME-CLARIFY-15D",
+    "BOND-BID-2PCT",
+    "DISC-REGION",
+    "DISC-BRAND",
+    "DISC-AUTH-OEM",
+    "EVAL-WEIGHT-SUM",
+    "CONSIST-TIMELINE-CONFLICT",
+    "CONTRACT-SUBSTANTIVE-CHANGE"
+  ],
+  "expected_max_blocker": 0,
+  "expected_max_high": 0
+}
