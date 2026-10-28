@@ -34,7 +34,7 @@ jobs:
           fi
           mkdir -p dist
           (cd skills/cn-tender-review && zip -r "../../dist/cn-tender-review-v${VERSION}.zip" \
-            SKILL.md manifest.json plugin.json LICENSE CHANGELOG.md references examples scripts)
+            SKILL.md README.md manifest.json plugin.json LICENSE CHANGELOG.md references examples scripts)
           (cd dist && shasum -a 256 "cn-tender-review-v${VERSION}.zip" > SHA256SUMS)
           cat dist/SHA256SUMS
 
