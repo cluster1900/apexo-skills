@@ -14,6 +14,12 @@
 | --- | --- | --- | --- | --- |
 | **[`cn-tender-review`](skills/cn-tender-review/README.md)** | `0.1.0` | Compliance / Legal Tech | China tender document compliance pre-review (statutory timelines, bid bond limits, discriminatory clauses, and structured audit reports). *Not legal advice.* | [README](skills/cn-tender-review/README.md) |
 
+### Available Plugins
+
+| Plugin | Version | Platform | Installation |
+| --- | --- | --- | --- |
+| [Computer Use](plugins/computer-use/README.md) | `0.1.0` | macOS 13+, native Apexo V2 | Search for `computer-use` in the Apexo Plugins catalog and choose **Install**. |
+
 ### How to Install Skills
 
 #### 1. Via Apexo Plugins (Recommended — Desktop & CLI)
@@ -64,6 +70,12 @@ Each skill lives under `skills/<skill-name>/` and should include:
 | 技能名称 | 最新版本 | 分类 | 简介 | 详细说明 |
 | --- | --- | --- | --- | --- |
 | **[`cn-tender-review`](skills/cn-tender-review/README.md)** | `0.1.0` | 合规预审 / 招投标 | 中国招标文件合规预审技能（法定时限、保证金比例、排他/歧视性条款、评标权重与合同红旗检查，输出带法条引用的结构化报告）。*非法律意见。* | [查看文档](skills/cn-tender-review/README.md) |
+
+### 可用插件
+
+| 插件 | 版本 | 平台 | 安装 |
+| --- | --- | --- | --- |
+| [Computer Use](plugins/computer-use/README.md) | `0.1.0` | macOS 13+，Apexo V2 | 在 Apexo 插件面板搜索 `computer-use`，选择「安装」。 |
 
 ### 通用安装方式
 
