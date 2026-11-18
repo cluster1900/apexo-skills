@@ -1,6 +1,7 @@
 {
   "permission": {
-    "mcp_computer-use_desktop_*": "deny"
+    "mcp_computer-use_desktop_*": "deny",
+    "computer-use_desktop_*": "deny"
   },
   "agent": {
     "build": {
@@ -21,7 +22,24 @@
         "mcp_computer-use_desktop_desktop_set_value_34098d8df3": "ask",
         "mcp_computer-use_desktop_desktop_clear_97d517acf5": "ask",
         "mcp_computer-use_desktop_desktop_scroll_b3d7d8cf55": "ask",
-        "mcp_computer-use_desktop_desktop_screenshot_42c7f823ee": "ask"
+        "mcp_computer-use_desktop_desktop_screenshot_42c7f823ee": "ask",
+        "computer-use_desktop_desktop_status": "ask",
+        "computer-use_desktop_desktop_permissions": "ask",
+        "computer-use_desktop_desktop_version": "ask",
+        "computer-use_desktop_desktop_skills_get": "ask",
+        "computer-use_desktop_desktop_list_apps": "ask",
+        "computer-use_desktop_desktop_list_windows": "ask",
+        "computer-use_desktop_desktop_list_surfaces": "ask",
+        "computer-use_desktop_desktop_snapshot": "ask",
+        "computer-use_desktop_desktop_find": "ask",
+        "computer-use_desktop_desktop_get": "ask",
+        "computer-use_desktop_desktop_is": "ask",
+        "computer-use_desktop_desktop_click": "ask",
+        "computer-use_desktop_desktop_type": "ask",
+        "computer-use_desktop_desktop_set_value": "ask",
+        "computer-use_desktop_desktop_clear": "ask",
+        "computer-use_desktop_desktop_scroll": "ask",
+        "computer-use_desktop_desktop_screenshot": "ask"
       }
     }
   }
