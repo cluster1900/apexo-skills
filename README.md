@@ -18,7 +18,7 @@
 
 | Plugin | Version | Platform | Installation |
 | --- | --- | --- | --- |
-| [Computer Use](plugins/computer-use/README.md) | `0.1.0` | macOS 13+, native Apexo V2 | Search for `computer-use` in the Apexo Plugins catalog and choose **Install**. |
+| [Computer Use](plugins/computer-use/README.md) | `0.1.1` | macOS 13+, Apple Silicon or Intel | Search for `computer-use` in the Apexo Plugins catalog and choose **Install** or **Update**. |
 
 ### How to Install Skills
 
@@ -75,7 +75,7 @@ Each skill lives under `skills/<skill-name>/` and should include:
 
 | 插件 | 版本 | 平台 | 安装 |
 | --- | --- | --- | --- |
-| [Computer Use](plugins/computer-use/README.md) | `0.1.0` | macOS 13+，Apexo V2 | 在 Apexo 插件面板搜索 `computer-use`，选择「安装」。 |
+| [Computer Use](plugins/computer-use/README.md) | `0.1.1` | macOS 13+，Apple 芯片或 Intel | 在 Apexo 插件面板搜索 `computer-use`，选择「安装」或「更新」。 |
 
 ### 通用安装方式
 
