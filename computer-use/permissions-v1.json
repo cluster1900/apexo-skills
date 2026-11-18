@@ -1,0 +1,28 @@
+{
+  "permission": {
+    "mcp_computer-use_desktop_*": "deny"
+  },
+  "agent": {
+    "build": {
+      "permission": {
+        "mcp_computer-use_desktop_desktop_status_10901207f9": "ask",
+        "mcp_computer-use_desktop_desktop_permissions_93b3245593": "ask",
+        "mcp_computer-use_desktop_desktop_version_8b6f35ec76": "ask",
+        "mcp_computer-use_desktop_desktop_skills_get_9f2328ce36": "ask",
+        "mcp_computer-use_desktop_desktop_list_apps_3ef8f3b30f": "ask",
+        "mcp_computer-use_desktop_desktop_list_windows_aa0ea11871": "ask",
+        "mcp_computer-use_desktop_desktop_list_surfaces_e153899af7": "ask",
+        "mcp_computer-use_desktop_desktop_snapshot_3bd13b1a54": "ask",
+        "mcp_computer-use_desktop_desktop_find_d842c6116e": "ask",
+        "mcp_computer-use_desktop_desktop_get_6893457e7f": "ask",
+        "mcp_computer-use_desktop_desktop_is_ff9a49ce04": "ask",
+        "mcp_computer-use_desktop_desktop_click_fe49ceadfc": "ask",
+        "mcp_computer-use_desktop_desktop_type_12f29081fc": "ask",
+        "mcp_computer-use_desktop_desktop_set_value_34098d8df3": "ask",
+        "mcp_computer-use_desktop_desktop_clear_97d517acf5": "ask",
+        "mcp_computer-use_desktop_desktop_scroll_b3d7d8cf55": "ask",
+        "mcp_computer-use_desktop_desktop_screenshot_42c7f823ee": "ask"
+      }
+    }
+  }
+}
